@@ -214,4 +214,37 @@ footer{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .main-container {
+        width: 100%;
+        padding: 0 0px;
+        box-sizing: border-box;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 60px; /*marge de 60px car le titre dessous mange les boutons, à revoir */
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap:0px;
+    }
+    nav a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin: 0px;
+        padding-bottom: 10px;
+        border-bottom: 3px var(--main-bg-color) solid;
+    }
+    nav a:hover{
+        border-bottom: 3px var(--main-color) solid;
+        border-top: 0px;
+    }
+
+    
 }
