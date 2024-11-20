@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin:0px;
 }
 
 .main-container {
@@ -24,7 +25,33 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;;
+    margin-bottom: 50px;
+}
+.logo{
+   width: 20%;
+   height: auto;
+   padding:10px;
+}
+nav{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    gap: 50px;
+    
+}
+nav a{
+    padding-top: 10px;
+    border-top: 3px white solid;
+}
+nav a:hover{
+    color: var(--main-color);
+    border-top: 3px var(--main-color) solid;
+    
+}
 a {
     color: inherit;
     text-decoration: none;
