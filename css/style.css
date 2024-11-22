@@ -301,7 +301,14 @@ footer{
     }
     .recherche{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .btrecherche{
+        border-radius: 15px 15px 15px 15px;
+    height: 2.5em;
+    width: 2.8em;
+    position:relative;
+    right:15px;
     }
     
 }
