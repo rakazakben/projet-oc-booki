@@ -173,8 +173,43 @@ footer{
     width: 30%;
     gap:15px;
 }
-
-
+.recherche{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btrecherche{
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    height: 2.5em;
+    width: 7em;
+    font-size: 1.05em;
+    font-weight: bold;
+    margin: 0px;
+    
+}
+.localisation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 0 1px 15px;
+    gap: 15px;
+    background-color: var(--main-bg-color);
+    height: 2.5em;
+    border-radius: 15px 0 0 15px;
+}
+.champrecherche{
+    height: 2.4em;
+    width: 9em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0px;
+    border: none;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

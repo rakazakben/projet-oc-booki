@@ -27,7 +27,13 @@
                 Trouvez votre hébergement pour des vacances de rêve
             </h2>
             <p>En plein centre-ville ou en pleine nature</p>
-            <form><i class="fa-solid fa-location-dot" style="color: #000000;"></i></form><!-- bouton de recherche-->
+            <form method="get" action="" class="recherche"><!-- bouton de recherche-->
+                <div class="localisation"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                    <input type="text" name="recherche" placeholder="Marseille, France" class="champrecherche">
+                </div> 
+                    
+                <input type="submit" value="Recherche" class="btrecherche">
+            </form><!-- bouton de recherche-->
             <div class="hebergements-and-populaires" id="hebergement">
                 <section class="hebergements">
                     <h2 class="section-title">Hébergements</h2>
