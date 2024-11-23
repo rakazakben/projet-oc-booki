@@ -190,7 +190,11 @@ footer{
     font-size: 1.05em;
     font-weight: bold;
     margin: 0px;
+    cursor: pointer;
     
+}
+.btrecherche-mobile{
+    display: none;
 }
 .localisation{
     display: flex;
@@ -299,16 +303,29 @@ footer{
         margin-block-start: 30px;
         margin-block-end: 10px;
     }
-    .recherche{
-        display: flex;
-        justify-content: center;
-    }
+
     .btrecherche{
+        display: none;
+    }
+    .btrecherche-mobile{
+        display:flex;
         border-radius: 15px 15px 15px 15px;
-    height: 2.5em;
-    width: 2.8em;
-    position:relative;
-    right:15px;
+        height: 2.4em;
+        width: 2.8em;
+        position:relative;
+        right:15px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        background-color: var(--main-color);
+        border: none;
+        font-size: 1.2em;
+    }
+    .localisation{
+        flex: 1;
+    }
+    .champrecherche{
+        width: 100%;
     }
     
 }
