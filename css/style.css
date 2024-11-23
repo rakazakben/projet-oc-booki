@@ -312,20 +312,23 @@ footer{
         border-radius: 15px 15px 15px 15px;
         height: 2.4em;
         width: 2.8em;
-        position:relative;
-        right:15px;
         justify-content: center;
         align-items: center;
         margin: 0px;
         background-color: var(--main-color);
         border: none;
         font-size: 1.2em;
+        box-shadow: 0px 3px 4px #00000080;
     }
     .localisation{
         flex: 1;
+        gap:0px;
+        height: auto;
+        border-radius: 15px;
     }
     .champrecherche{
         width: 100%;
+        margin-left: 15px;
     }
     
 }
