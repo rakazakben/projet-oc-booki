@@ -78,7 +78,7 @@ a {
 }
 .filtre{
     display: flex;
-    border: #0065FC 1px solid;
+    border: #d9d9d9 2px solid;
     padding: 10px;
     border-radius: 25px;
     justify-content: center;
@@ -88,6 +88,11 @@ a {
 }
 .filtre:hover{
     background-color: var(--filter-bg-color);
+}
+.info-filtres{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 .section-title {
     margin: 0;
