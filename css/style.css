@@ -63,7 +63,32 @@ a {
     color: inherit;
     text-decoration: none;
 }
-
+.form-filtres{
+    display:flex;
+    flex-direction: row;
+    height: 2.5em;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.container-filtres{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.filtre{
+    display: flex;
+    border: #0065FC 1px solid;
+    padding: 10px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 5px;
+}
+.filtre:hover{
+    background-color: var(--filter-bg-color);
+}
 .section-title {
     margin: 0;
     font-size: 22px;
