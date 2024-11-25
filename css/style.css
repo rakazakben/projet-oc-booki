@@ -274,6 +274,31 @@ footer{
     margin: 0px;
     border: none;
 }
+.activites{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.card-activite{
+    width: 25%;
+    border-radius: 20px;
+    background-color: white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
+}
+.card-activite h3{
+    padding: 15px;
+    margin: 0px;
+}
+.card-activite img{
+    object-fit: cover;
+    width: 100%;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
