@@ -347,7 +347,7 @@ footer{
         border-bottom: 3px var(--main-color) solid;
         border-top: 0px;
     }
-    main{
+    .intro{
         padding: 0px 15px 0px 15px;
     }
 
@@ -399,5 +399,19 @@ footer{
     .filtre{
         width: 40%;
     }
-    
+    .hebergements-and-populaires{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hebergements-and-populaires section{
+        border-radius: 0px;
+    }
+    .populaires-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .populaires-cards a{
+        width: 100%;
+    }
 }
