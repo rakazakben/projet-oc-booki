@@ -167,10 +167,23 @@ nav a:hover{
 .filtre:hover{
     background-color: var(--filter-bg-color);
 }
-.info-filtres{
+.info-filtre{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    align-items: center;
+}
+.info{
+    
+        display: flex; /* Permet de centrer l'icône */
+        justify-content: center; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+        color: #0065fc; /* Couleur de l'icône */
+        border-radius: 50%; /* Transforme le carré en cercle */
+        width: 24px; /* Largeur du cercle */
+        height: 24px; /* Hauteur du cercle */
+        font-size: 12px; /* Taille de l'icône */
+        border: 2px #d9d9d9 solid;
 }
 
 
@@ -323,6 +336,7 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -433,6 +447,12 @@ footer{
     .filtre{
         width: 40%;
     }
+    .info{
+    
+        width:30px;
+        height: 25px; /* Hauteur du cercle */
+    }
+
     /***** hebergements and populaires ******/
     .hebergements-and-populaires{
         display: flex;
