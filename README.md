@@ -1,7 +1,6 @@
 # Booki - Agence de Voyage
 
-![Aperçu du site](https://www.figma.com/design/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki) <!-- Remplace par le chemin de ton aperçu, ou retire cette ligne si tu n'as pas encore d'image -->
-
+![Aperçu du site](/images/screen/Capture.JPG) 
 Booki est un site web dédié à la présentation d'une agence de voyage fictive. Ce projet a été réalisé dans le cadre de ma formation en développement web, et vise à mettre en pratique mes compétences en HTML et CSS.
 
 ## 🌐 Accès au site
