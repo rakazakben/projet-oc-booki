@@ -390,7 +390,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 60px; /*marge de 60px car le titre dessous mange les boutons, à revoir */
+        margin-bottom: 60px; 
     }
     nav{
         display: flex;
