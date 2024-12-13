@@ -206,7 +206,7 @@ nav a:hover{
 }
 .hebergement-cards{
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
@@ -234,7 +234,6 @@ nav a:hover{
     justify-content: space-between;
     box-sizing: border-box;
 }
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
