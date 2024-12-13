@@ -246,15 +246,13 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
 }
-
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
 }
-
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 156px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
