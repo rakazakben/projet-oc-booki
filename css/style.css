@@ -52,7 +52,6 @@ a {
 .card-title {
     font-size: 16px;
 }
-
 .euro {
     font-weight: 700;
 }
@@ -236,6 +235,10 @@ nav a:hover{
     justify-content: space-between;
     box-sizing: border-box;
 }
+.hebergement-cards .card-txt{
+    display: flex;
+    flex-direction: column;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -333,6 +336,15 @@ footer{
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+/* Medium devices (desktop, less/equal than 1198px) */
+@media (max-width: 1198px) {
+    .hebergement-cards a{
+        width: 33%;
+    }
+    .hebergement-cards .card-title{
+        font-size: 14px;
+    }
+}
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
@@ -362,9 +374,14 @@ footer{
     .populaires-cards .card-title {
         font-size: 14px;
     }
-
+    .hebergement-cards .card-title{
+        font-size: 14px;
+    }
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+    .hebergement-cards a{
+        width: 30%;
     }
 }
 
