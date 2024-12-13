@@ -115,7 +115,6 @@ nav a:hover{
     font-weight: bold;
     margin: 0px;
     cursor: pointer;
-    
 }
 .btrecherche-mobile{ /* activation du display dans media mobile */
     display: none;
@@ -129,6 +128,9 @@ nav a:hover{
     background-color: var(--main-bg-color);
     height: 2.5em;
     border-radius: 15px 0 0 15px;
+}
+.localisation .fa-solid{
+    color: black;
 }
 .champrecherche{
     height: 2.4em;
@@ -426,6 +428,9 @@ footer{
         border: none;
         font-size: 1.2em;
         box-shadow: 0px 3px 4px #00000080;
+    }
+    .fa-magnifying-glass{
+        color:white;
     }
     .localisation{
         flex: 1;
